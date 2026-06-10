@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHB — Sport Health Beauty | Péptidos Bioactivos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-main">SHB</span>
+        <span class="logo-sub">Sport · Health · Beauty</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#packs">Packs</a></li>
+        <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#packs">Packs</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <p class="hero-tag">// Bioactive Peptides · Research Grade</p>
+      <h1 class="hero-title">
+        RINDE<br>
+        <em>MÁS.</em><br>
+        RECOVER<br>
+        <em>FASTER.</em>
+      </h1>
+      <p class="hero-sub">Péptidos bioactivos de grado investigación para atletas y entusiastas del fitness que exigen resultados reales.</p>
+      <div class="hero-btns">
+        <a href="#catalogo" class="btn-primary">Ver catálogo →</a>
+        <a href="#packs" class="btn-secondary">Packs especiales</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">20</span>
+        <span class="stat-label">Péptidos</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">RG</span>
+        <span class="stat-label">Research Grade</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">LATAM</span>
+        <span class="stat-label">Envíos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORÍAS -->
+  <section class="categories" id="categorias">
+    <div class="container">
+      <p class="section-label">// Categorías</p>
+      <h2 class="section-title">ELIGE TU OBJETIVO</h2>
+      <div class="cat-grid">
+        <button class="cat-btn active" data-filter="all">🔬 Todos</button>
+        <button class="cat-btn" data-filter="fat">🔥 Fat Burn</button>
+        <button class="cat-btn" data-filter="perf">⚡ Performance</button>
+        <button class="cat-btn" data-filter="recov">🩹 Recovery</button>
+        <button class="cat-btn" data-filter="skin">✨ Anti-aging</button>
+        <button class="cat-btn" data-filter="neuro">🧠 Nootropos</button>
+        <button class="cat-btn" data-filter="hormonal">💛 Hormonal</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <section class="catalog" id="catalogo">
+    <div class="container">
+      <p class="section-label">// Catálogo completo</p>
+      <h2 class="section-title">PÉPTIDOS</h2>
+
+      <div class="peptide-grid" id="peptideGrid">
+
+        <!-- FAT BURN -->
+        <div class="peptide-card" data-cat="fat">
+          <span class="tag tag-fat">🔥 Fat Burn</span>
+          <h3 class="p-name">RETATRUTIDE</h3>
+          <p class="p-aka">Triple agonista GLP-1 / GIP / Glucagón</p>
+          <p class="p-dose">15 mg</p>
+          <p class="p-desc">El péptido más potente para pérdida de grasa. Reduce el apetito, acelera el metabolismo y mejora la sensibilidad a la insulina. Reducción de peso corporal hasta 25%.</p>
+          <p class="p-price">$300</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="fat">
+          <span class="tag tag-fat">🔥 Fat Burn</span>
+          <h3 class="p-name">MOTS-C</h3>
+          <p class="p-aka">Péptido mitocondrial · AMPK</p>
+          <p class="p-dose">40 mg</p>
+          <p class="p-desc">Conocido como "el ejercicio en una jeringa". Activa AMPK, mejora la sensibilidad a la insulina y aumenta la oxidación de grasas sin afectar la masa muscular.</p>
+          <p class="p-price">$320</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="fat">
+          <span class="tag tag-fat">🔥 Fat Burn</span>
+          <h3 class="p-name">5-AMINO 1MQ</h3>
+          <p class="p-aka">Inhibidor NNMT</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">Reactiva la quema de grasa a nivel celular. Preserva la masa muscular durante el déficit. Ideal para recomposición corporal combinado con Retatrutide o Mots-C.</p>
+          <p class="p-price">$120</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="fat">
+          <span class="tag tag-fat">🔥 Fat Burn</span>
+          <h3 class="p-name">SLU-PP 332</h3>
+          <p class="p-aka">Agonista ERRα · Cardio mimético</p>
+          <p class="p-dose">5 mg</p>
+          <p class="p-desc">Simula los efectos metabólicos del cardio intenso. Activa la biogénesis mitocondrial y la oxidación de ácidos grasos sin ejercicio.</p>
+          <p class="p-price">$120</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="fat">
+          <span class="tag tag-fat">🔥 Fat Burn</span>
+          <h3 class="p-name">AOD-9604</h3>
+          <p class="p-aka">Fragmento C-terminal GH</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">Lipólisis selectiva sin los efectos adversos del HGH completo. Específico para grasa visceral, no afecta glucosa ni crecimiento óseo.</p>
+          <p class="p-price">$200</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <!-- PERFORMANCE -->
+        <div class="peptide-card" data-cat="perf">
+          <span class="tag tag-perf">⚡ Performance</span>
+          <h3 class="p-name">CJC-1295 / IPAMORELIN</h3>
+          <p class="p-aka">GHRH + GHRP · GH Stack</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">El stack de GH más popular y seguro. Maximiza la liberación pulsátil de hormona de crecimiento, mejora el sueño profundo y la recuperación muscular.</p>
+          <p class="p-price">$200</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="perf">
+          <span class="tag tag-perf">⚡ Performance</span>
+          <h3 class="p-name">TESAMORELIN</h3>
+          <p class="p-aka">Análogo GHRH · Grasa visceral</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">Análogo de GHRH aprobado clínicamente. Estimula la secreción natural de GH y reduce la grasa visceral abdominal de forma específica.</p>
+          <p class="p-price">$200</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="perf">
+          <span class="tag tag-perf">⚡ Performance</span>
+          <h3 class="p-name">IGF-1 LR3</h3>
+          <p class="p-aka">Factor de crecimiento insulínico</p>
+          <p class="p-dose">1 mg</p>
+          <p class="p-desc">Estimula la síntesis proteica directamente en el músculo. Vida media de hasta 20 horas. Hipertrofia muscular y recuperación celular aceleradas.</p>
+          <p class="p-price">$200</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="perf">
+          <span class="tag tag-perf">⚡ Performance</span>
+          <h3 class="p-name">FOLLISTATIN 344</h3>
+          <p class="p-aka">Inhibidor de miostatina</p>
+          <p class="p-dose">Consultar</p>
+          <p class="p-desc">Elimina el freno natural al crecimiento muscular. Promueve hipertrofia significativa y reducción de grasa simultánea. Efectos duraderos con ciclos cortos.</p>
+          <p class="p-price">$300</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <!-- RECOVERY -->
+        <div class="peptide-card" data-cat="recov">
+          <span class="tag tag-recov">🩹 Recovery</span>
+          <h3 class="p-name">BPC-157 / TB-500</h3>
+          <p class="p-aka">Body Protection + Thymosin Beta-4</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">El stack de recuperación más usado por atletas. BPC-157 para reparación local (tendones, intestino). TB-500 para acción antiinflamatoria sistémica.</p>
+          <p class="p-price">$250</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="recov">
+          <span class="tag tag-recov">🩹 Recovery</span>
+          <h3 class="p-name">KPV</h3>
+          <p class="p-aka">Tripéptido α-MSH · Gut Health</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">Potente antiinflamatorio intestinal y sistémico. Actúa sobre receptores de melanocortina. Acelera cicatrización y protege el tracto gastrointestinal.</p>
+          <p class="p-price">$120</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="recov">
+          <span class="tag tag-recov">🩹 Recovery</span>
+          <h3 class="p-name">GHK-CU</h3>
+          <p class="p-aka">Péptido de cobre · Regeneración</p>
+          <p class="p-dose">50 mg</p>
+          <p class="p-desc">Estimula colágeno y elastina, acelera la cicatrización y mejora piel, cabello y uñas. Antiinflamatorio sistémico con propiedades regenerativas únicas.</p>
+          <p class="p-price">$120</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <!-- ANTI-AGING / SKIN -->
+        <div class="peptide-card" data-cat="skin">
+          <span class="tag tag-skin">✨ Anti-aging</span>
+          <h3 class="p-name">EPITHALON</h3>
+          <p class="p-aka">Activador de telomerasa</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">Tetrapéptido referente en medicina anti-age. Alarga los telómeros, rejuvenece las células, regula el ciclo circadiano y mejora la calidad del sueño.</p>
+          <p class="p-price">$120</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="skin">
+          <span class="tag tag-skin">✨ Anti-aging</span>
+          <h3 class="p-name">NAD+</h3>
+          <p class="p-aka">Coenzima · Energía celular</p>
+          <p class="p-dose">500 mg</p>
+          <p class="p-desc">Fundamental en producción de energía celular y reparación del ADN. Activa sirtuinas, mejora la claridad mental y frena el envejecimiento celular.</p>
+          <p class="p-price">$120</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <!-- NOOTROPOS -->
+        <div class="peptide-card" data-cat="neuro">
+          <span class="tag tag-neuro">🧠 Nootropo</span>
+          <h3 class="p-name">SEMAX</h3>
+          <p class="p-aka">Análogo ACTH · Neuroprotector</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">El nootropo más potente del catálogo. Aumenta BDNF, mejora memoria y foco, y protege el sistema nervioso ante el estrés oxidativo.</p>
+          <p class="p-price">$120</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="neuro">
+          <span class="tag tag-neuro">🧠 Nootropo</span>
+          <h3 class="p-name">SELANK</h3>
+          <p class="p-aka">Ansiolítico · Derivado tuftsin</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">Reduce ansiedad y estrés crónico sin sedación ni dependencia. Modula el sistema GABA e incrementa BDNF. Sin síndrome de abstinencia.</p>
+          <p class="p-price">$120</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <!-- HORMONAL -->
+        <div class="peptide-card" data-cat="hormonal">
+          <span class="tag tag-hormonal">💛 Hormonal</span>
+          <h3 class="p-name">PT-141</h3>
+          <p class="p-aka">Agonista MC4R · Libido</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">Actúa sobre la libido a nivel neurológico central. Mejora la función sexual en hombres y mujeres. Acción en 1-2 horas, sin efectos cardiovasculares.</p>
+          <p class="p-price">$120</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="hormonal">
+          <span class="tag tag-hormonal">💛 Hormonal</span>
+          <h3 class="p-name">MT2</h3>
+          <p class="p-aka">Melanotan II · Bronceado</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">Estimula el bronceado natural de la piel y aumenta la libido simultáneamente. Mejora la función eréctil. Control del apetito como beneficio adicional.</p>
+          <p class="p-price">$120</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="hormonal">
+          <span class="tag tag-hormonal">💛 Hormonal</span>
+          <h3 class="p-name">KISSPEPTINA</h3>
+          <p class="p-aka">Regulador GnRH · Fertilidad</p>
+          <p class="p-dose">10 mg</p>
+          <p class="p-desc">Optimiza la secreción de GnRH y mejora los niveles de testosterona naturalmente. Aumenta libido y fertilidad en hombres y mujeres.</p>
+          <p class="p-price">$120</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+        <div class="peptide-card" data-cat="hormonal">
+          <span class="tag tag-hormonal">💛 Hormonal</span>
+          <h3 class="p-name">HCG</h3>
+          <p class="p-aka">Gonadotropina coriónica · Post-ciclo</p>
+          <p class="p-dose">5000 IU</p>
+          <p class="p-desc">Restaura la producción endógena de testosterona y preserva la función testicular. Fundamental en protocolos post-ciclo hormonal.</p>
+          <p class="p-price">$200</p>
+          <div class="p-actions">
+            <a href="https://t.me/shb_pep" class="btn-card-contact" target="_blank">💬 Consultar</a>
+            <a href="https://t.me/shb_pep" class="btn-card-buy" target="_blank">Comprar →</a>
+          </div>
+        </div>
+
+      </div><!-- end peptide-grid -->
+    </div>
+  </section>
+
+  <!-- PACKS -->
+  <section class="packs" id="packs">
+    <div class="container">
+      <p class="section-label">// Protocolos completos</p>
+      <h2 class="section-title">PACKS ESPECIALES</h2>
+      <div class="packs-grid">
+
+        <div class="pack-card pack-fat">
+          <p class="pack-badge">★ Best Seller</p>
+          <h3 class="pack-name">FAT BURN PRO PACK</h3>
+          <p class="pack-sub">Protocolo completo de pérdida de grasa</p>
+          <ul class="pack-items">
+            <li>Retatrutide 15mg</li>
+            <li>Mots-C 40mg</li>
+            <li>5-Amino 1MQ 10mg</li>
+            <li>Slu-PP 332 5mg</li>
+          </ul>
+          <a href="https://t.me/shb_pep" class="btn-primary" target="_blank">Consultar precio →</a>
+        </div>
+
+        <div class="pack-card pack-perf">
+          <p class="pack-badge">Performance</p>
+          <h3 class="pack-name">ATHLETE STACK</h3>
+          <p class="pack-sub">Rendimiento máximo + recuperación</p>
+          <ul class="pack-items">
+            <li>BPC-157 / TB-500 10mg</li>
+            <li>CJC-1295 / Ipamorelin 10mg</li>
+            <li>IGF-1 LR3 1mg</li>
+            <li>AOD-9604 10mg</li>
+          </ul>
+          <a href="https://t.me/shb_pep" class="btn-primary" target="_blank">Consultar precio →</a>
+        </div>
+
+        <div class="pack-card pack-skin">
+          <p class="pack-badge">Anti-aging</p>
+          <h3 class="pack-name">LONGEVITY PACK</h3>
+          <p class="pack-sub">Longevidad y anti-envejecimiento integral</p>
+          <ul class="pack-items">
+            <li>Epithalon 10mg</li>
+            <li>GHK-Cu 50mg</li>
+            <li>NAD+ 500mg</li>
+            <li>Selank 10mg</li>
+          </ul>
+          <a href="https://t.me/shb_pep" class="btn-primary" target="_blank">Consultar precio →</a>
+        </div>
+
+        <div class="pack-card pack-muscle">
+          <p class="pack-badge">Muscle & Recomp</p>
+          <h3 class="pack-name">RECOMP PRO</h3>
+          <p class="pack-sub">Hipertrofia + pérdida de grasa simultánea</p>
+          <ul class="pack-items">
+            <li>IGF-1 LR3 1mg</li>
+            <li>Follistatin 344</li>
+            <li>CJC-1295 / Ipamorelin 10mg</li>
+            <li>Mots-C 40mg</li>
+          </ul>
+          <a href="https://t.me/shb_pep" class="btn-primary" target="_blank">Consultar precio →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <p class="section-label">// Contacto</p>
+      <h2 class="section-title">¿LISTO PARA EMPEZAR?</h2>
+      <p class="contact-sub">Consulta disponibilidad, precios o arma tu protocolo personalizado. Respondemos en menos de 24h.</p>
+      <div class="contact-channels">
+        <a href="https://t.me/shb_pep" class="channel" target="_blank">
+          <span class="ch-icon">✈️</span>
+          <div class="ch-info">
+            <span class="ch-name">Telegram</span>
+            <span class="ch-desc">Canal principal · Respuesta rápida</span>
+          </div>
+          <span class="ch-arrow">→</span>
+        </a>
+        <a href="https://wa.me/TUNUMERO" class="channel" target="_blank">
+          <span class="ch-icon">💬</span>
+          <div class="ch-info">
+            <span class="ch-name">WhatsApp</span>
+            <span class="ch-desc">Consultas y pedidos</span>
+          </div>
+          <span class="ch-arrow">→</span>
+        </a>
+        <a href="mailto:TU@EMAIL.COM" class="channel">
+          <span class="ch-icon">📧</span>
+          <div class="ch-info">
+            <span class="ch-name">Email</span>
+            <span class="ch-desc">Para pedidos formales</span>
+          </div>
+          <span class="ch-arrow">→</span>
+        </a>
+      </div>
+      <p class="contact-payment">💳 Pagos en USDT · Binance Pay &nbsp;|&nbsp; 📦 Envíos a toda Latinoamérica</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-logo">SHB</span>
+      <p class="footer-note">© 2025 Sport Health Beauty · Todos los productos son para uso de investigación únicamente. Not for human consumption.</p>
+      <span class="footer-badge">Research Grade ✓</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
